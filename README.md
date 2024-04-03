@@ -18,8 +18,6 @@ And more coming soon...
 Downloads
 You can download the latest JAR file here.
 
-Pufferfish Host
-Are you looking for a server hosting provider to take your server's performance to the next level? Check out Pufferfish Host! We run only the best hardware so you can be sure that your server's hardware isn't bogging you down. This fork is developed by Pufferfish Host, and we can provide additional tailored performance support to customers.
 
 Building
 ./gradlew build

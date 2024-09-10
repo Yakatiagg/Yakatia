@@ -18,8 +18,8 @@
     <description>Parent project for all NachoSpigot modules.</description>
 
     <modules>
-        <module>NachoSpigot-Server</module>
-        <module>NachoSpigot-API</module>
+        <module>Yakatia-Server</module>
+        <module>Yakatia-API</module>
     </modules>
 
     <build>

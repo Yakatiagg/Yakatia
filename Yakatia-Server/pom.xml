@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>nachospigot</artifactId>
+    <artifactId>yakatia</artifactId>
     <packaging>jar</packaging>
     <version>1.8.8-R0.2-SNAPSHOT</version>
-    <name>NachoSpigot</name>
+    <name>Yakatia</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -176,7 +176,7 @@
 
     <!-- This builds a completely 'ready to start' jar with all dependencies inside -->
     <build>
-        <finalName>NachoSpigot-Server</finalName>
+        <finalName>Yakatia-Server</finalName>
         <defaultGoal>install</defaultGoal>
         <plugins>
             <plugin>
@@ -201,18 +201,19 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.5</version>
                 <configuration>
-                    <finalName>NachoSpigot</finalName>
+                    <finalName>Yakatia</finalName>
                     <forceCreation>true</forceCreation> <!-- Required to prevent shading the jar multiple times -->
                     <archive>
                         <manifestEntries>
                             <Main-Class>org.bukkit.craftbukkit.Main</Main-Class>
                             <Implementation-Title>CraftBukkit</Implementation-Title>
+                            <!--suppress UnresolvedMavenProperty -->
                             <Implementation-Version>${describe}</Implementation-Version>
                             <Implementation-Vendor>${maven.build.timestamp}</Implementation-Vendor>
                             <Specification-Title>Bukkit</Specification-Title>
                             <!-- I don't see why this is necessary but I'll leave it alone for now -->
                             <Specification-Version>${api.version}</Specification-Version>
-                            <Specification-Vendor>Bukkit Team</Specification-Vendor>
+                            <Specification-Vendor>Yakatia Team</Specification-Vendor>
                         </manifestEntries>
                         <manifestSections>
                             <manifestSection>

@@ -235,7 +235,7 @@ public class DedicatedServer extends MinecraftServer implements IMinecraftServer
                             DedicatedServer.LOGGER.error("Could not check firewall..");
                             e.printStackTrace();
                         }
-                        DedicatedServer.LOGGER.warn("---------------------------- NachoSpigot Checker ----------------------------");
+                        DedicatedServer.LOGGER.warn("---------------------------- Yakatia Checker ----------------------------");
                     }
                 } else {
                     DedicatedServer.LOGGER.warn("While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.");

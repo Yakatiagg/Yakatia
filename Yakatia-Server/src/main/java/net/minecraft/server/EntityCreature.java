@@ -27,8 +27,6 @@ public abstract class EntityCreature extends EntityInsentient {
         return 0.0F;
     }
 
-    protected abstract boolean n_();
-
     public boolean bR() {
         return super.bR() && this.a(new BlockPosition(this.locX, this.getBoundingBox().b, this.locZ)) >= 0.0F;
     }

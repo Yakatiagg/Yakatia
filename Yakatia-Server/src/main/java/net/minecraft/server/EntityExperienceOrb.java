@@ -4,7 +4,7 @@ package net.minecraft.server;
 import org.bukkit.craftbukkit.event.CraftEventFactory;
 import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
 import org.bukkit.event.entity.EntityTargetEvent;
-// CraftBukkit end
+// Yakatia end
 
 public class EntityExperienceOrb extends Entity {
 
